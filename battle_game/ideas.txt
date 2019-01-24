@@ -1,0 +1,43 @@
+--- Classes ---
+
+  Guerrier/Warrior
+  Paladin
+  Tank/Hulk
+  Magicien/Wizard
+  Sorcier/Sorcerer
+  Preacher/Druid
+  Archer/Archerer
+  Cavalier/Knight
+
+--- State Alterations ---
+for x rounds:
+  Buff ATK
+  Buff DFS
+  Buff SPELL DMG
+  Buff Max HP
+
+  Reduce ATK
+  Reduce DFS
+  Reduce SPELL DMG
+  Reduce MP
+
+  Poison
+  Confusion
+  Charm
+
+Permanent :
+  Heal
+  Mana boost
+
+Once:
+  resurrection
+  play twice in a round
+
+Offensive:
+  Tornado
+  ..
+  Earthquake
+  Ice
+  Magma
+  Darkness ?
+  Poison ?
