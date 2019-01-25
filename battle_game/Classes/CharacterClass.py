@@ -56,7 +56,6 @@ class Character:
         if self.mp < 0:
             self.mp = 0
 
-        print("You have " + str(self.mp) + " MP left.")
         return self.mp
 
     def get_spellname(self, index):
@@ -72,9 +71,12 @@ class Character:
         for item in self.actions:
             print(str(index) + " : ", item)
             index += 1
-        choice = input("Choose your action | ")
-        print("You chose : " + choice)
-        return(int(choice))
+
+        print("========================")
+
+        choice = int(input("Choose your action | "))
+        print("You chose : ", choice)
+        return(choice)
 
     def choose_spell(self):
         print("========================")
@@ -87,3 +89,17 @@ class Character:
         choice = input("Choose your spell | ")
         print("You chose : " + choice)
         return(int(choice))
+
+    def printstats(self, name):
+        index = 0
+        print(name)
+        print("========================")
+        print("HP :", self.maxhp)
+        print("MP :", self.maxmp)
+        print("ATK MAX :", self.atk_high)
+        print("DFS :", self.dfs)
+        print("MAGIC SPELLS :")
+        for spell in self.magic:
+            print("Name : ", spell["name"], "|| Damage : ",
+                  spell["damage"], " points")
+        print("========================")

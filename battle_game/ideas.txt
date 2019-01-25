@@ -25,15 +25,24 @@ for x rounds:
   Confusion
   Charm
 
-Permanent :
+--- Permanent ---
   Heal
   Mana boost
 
-Once:
+--- Randomized events ---
+  Critical Hit
+  Critical Fail
+
+  Dodge
+  Meteorites/Projections/Dragon
+
+  
+
+--- Once ---
   resurrection
   play twice in a round
 
-Offensive:
+--- Offensive ---
   Tornado
   ..
   Earthquake
