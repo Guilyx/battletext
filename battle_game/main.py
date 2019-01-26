@@ -189,12 +189,14 @@ print(ColorsBook.FAIL + ColorsBook.BOLD + "AN ENEMY ATTACKS!" + ColorsBook.ENDC)
 
 who = whoplays()
 
-while not (enemy_currenthp == 0) or (player_currenthp == 0):
+while True:
     if who == 1:
         print(ColorsBook.BOLD + "It's your turn !" + ColorsBook.ENDC)
         enemy_currenthp, player_currentmp = player_turn(enemy_currenthp,
                                                         player_currentmp)
         turndelimitation()
+        if enemy_currenthp == 0:
+            break
         who = 2
 
     if who == 2:
@@ -205,6 +207,8 @@ while not (enemy_currenthp == 0) or (player_currenthp == 0):
         player_currenthp, enemy_currentmp = enemy_turn(player_currenthp,
                                                        enemy_currentmp)
         turndelimitation()
+        if player_currenthp == 0:
+            break
         time.sleep(5)
         who = 1
 
