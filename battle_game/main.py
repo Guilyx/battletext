@@ -25,10 +25,25 @@
 
 
 from Classes.CharacterClass import*
+from Classes.Spell import*
 from random import*
 import time
 
 #==============================================================================#
+
+#Create Offensive Spells
+fire = Spell("Fire", 80, 185, "offensive")
+thunder = Spell("Thunder", 80, 120, "offensive")
+blizzard = Spell("Blizzard", 30, 70, "offensive")
+meteor = Spell("Meteor", 30, 85, "offensive")
+hurricane = Spell("Hurricane", 10, 55, "offensive")
+
+#Create Support Spells
+first_heal = Spell("First_Heal", 10, 40, "support")
+partial_heal = Spell("Partial_Heal", 15, 65, "support")
+complete_heal = Spell("Complete_Heal", 30, 100, "support")
+
+
 
 magic = [{"name": "Katon", "cost": 30, "damage": 150},
          {"name": "Raiton", "cost": 20, "damage": 105},
