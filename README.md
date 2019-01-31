@@ -6,7 +6,9 @@ Text round per round battle game supporting one on one combats (User vs Random) 
 
 *Architecture :*
 > main.py : main code to start the combat session, ends with either player hitting the 0 HP mark.
+
 > CharacterClass.py : First Character Class, defining attributes for everyone who's a character (which is everyone)
+
 > Item.py : Item class defining the attributes for item creation
 
 ## Steps
