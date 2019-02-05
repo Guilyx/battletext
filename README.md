@@ -17,7 +17,7 @@ Text round per round battle game supporting one on one combats (User vs Random) 
 
 > Planning the implementation of a stat enhancing the probabilities for a player to start first. Will be supported in future Multiplayer mode.
 
-![First round](https://www.noelshack.com/2019-06-2-1549376122-capture-du-2019-02-05-14-58-22.png)
+![First Round](https://raw.githubusercontent.com/Guilyx/battletext/master/battle_game/images/First_action.png?raw=True)
 
 * Hit with the action of your choice the enemy (only one currently), then will have to choose the action and on which character to apply this action (heal an ally, heal yourself, hit the enemy, etc)
 
