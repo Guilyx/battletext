@@ -41,8 +41,8 @@ class Character:
         return random.randrange(self.atk_low, self.atk_high)
 
     def get_spelldamage(self, index):
-        magic_low = self.magic[index]["damage"] - 10
-        magic_high = self.magic[index]["damage"] + 10
+        magic_low = int(self.magic[index]["damage"] - 0.1 * self.magic[index]["damage"])
+        magic_high = int(self.magic[index]["damage"] + 0.1 * self.magic[index]["damage"])
         return random.randrange(magic_low, magic_high)
 
     def get_spelltype(self, index):
