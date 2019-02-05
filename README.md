@@ -23,11 +23,11 @@ Text round per round battle game supporting one on one combats (User vs Random) 
 
   *  ITEMS taking name, type, description, property as Class attributes
   
-  ![ITEM use](https://www.noelshack.com/2019-06-2-1549376122-capture-du-2019-02-05-14-59-21.png)
+  ![ITEM use](https://raw.githubusercontent.com/Guilyx/battletext/master/battle_game/images/item_use.png?raw=True)
   
   *  MAGIC taking name, cost, damage and type in a dictionnary (method in Character Class)
   
-  ![MAGIC use](https://www.noelshack.com/2019-06-2-1549376122-capture-du-2019-02-05-14-58-46.png)
+  ![MAGIC use](https://raw.githubusercontent.com/Guilyx/battletext/master/battle_game/images/magic_use.png?raw=True)
   
   *  ATTACK (h2h), defined in the Character Class.
   
