@@ -27,7 +27,7 @@ Text round per round battle game supporting one on one combats (User vs Random) 
   
   *  MAGIC taking name, cost, damage and type in a dictionnary (method in Character Class)
   
-  ![MAGIC use](https://raw.githubusercontent.com/Guilyx/battletext/master/battle_game/images/magic_use.png?raw=True)
+  ![MAGIC use](https://raw.githubusercontent.com/Guilyx/battletext/master/battle_game/images/spell_use.png?raw=True)
   
   *  ATTACK (h2h), defined in the Character Class.
   
@@ -44,7 +44,21 @@ To use the program, open your terminal, cd your way to the directory you want to
 ```python3 main.py``` 
 
 ## What's next ?
+- Use of the DEFENSE attribute
+- More diverse spells
+- RANDOM events or triggered events like "The enemy projected you through a wall" ?
+- Specialization classes that inherit "CharacterClass"
+- Building a easy/medium/tough af ENEMY behavior
+- A defined SPECIALIZATION gets defined STATS
+  * If Warrior : no magic points
+  * If Paladin : a bit of both
+  * If Wizard : low attack, high magic, and more spells (healing per exemple)
+- Add a "DODGING %"
+- MULTIPLAYER/MULTIENEMY option (choose who you attack etc)
+- BALANCE the damage per classes
+- EXPAND to play within a local server on multiple computers
 
+- GUI !
 
 
 ## Licence
