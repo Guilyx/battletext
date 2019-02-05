@@ -47,9 +47,9 @@ enemyitems = [{"item": potion, "quantity": 15},
               {"item": sacredashes, "quantity": 5}]
 
 #Character(HP, MP, ATTACK, DEFENSE, MAGICSPELL)
-player1 = Character("AURAZUR:", 4700, 800, 330, 50, playeritems)
+player1 = Character("AURAZUR:", 4700, 800, 750, 50, playeritems)
 player2 = Character("BOB:    ", 400, 1000, 300, 45, playeritems)
-enemy = Character("TRUMP:  ", 7500, 280, 515, 20, enemyitems)
+enemy = Character(  "AKAGAMI:", 7500, 280, 515, 20, enemyitems)
 
 
 enemy_currenthp = enemy.get_hp()
