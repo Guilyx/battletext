@@ -37,7 +37,7 @@ Text round per round battle game supporting one on one combats (User vs Random) 
 
 To use the program, open your terminal, cd your way to the directory you want to put the repository in, then follow these steps :
 
-```git clone https://github.com/Guilyx/battletext/tree/master``` 
+```git clone https://github.com/Guilyx/battletext.git``` 
 
 ```cd battle_game``` 
 
