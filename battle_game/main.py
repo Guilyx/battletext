@@ -1,4 +1,13 @@
-# battle_game python project by ERWIN LEJEUNE#
+__author__ = "Erwin Lejeune"
+__copyright__ = "2019"
+__credits__ = ["Erwin Lejeune"]
+__license__ = "BSD 3-Clause"
+__version__ = "0.2.0"
+__maintainer__ = "Erwin Lejeune"
+__email__ = "erwin.lejeune15@gmail.com"
+__status__ = "Production"
+
+
 ##############################################
 '''What's next ? : Use of the DEFENSE attribute
                    More fucking SPELLS
