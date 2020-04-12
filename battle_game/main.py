@@ -33,8 +33,8 @@ __status__ = "Production"
                    IMPLEMENT a secret JUGGERNAUT class that only I know about'''
 
 
-from Classes.CharacterClass import*
-from Classes.Inventory import*
+from battle_game.Classes.CharacterClass import*
+from battle_game.Classes.Inventory import*
 from random import*
 import time
 
